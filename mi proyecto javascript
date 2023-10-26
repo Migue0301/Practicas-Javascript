@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis proyectos Javascript</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #d6eb18, #00ff04); /* Fondo degradado */
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            display: ruby;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 40px;
+            color: #000000;
+            margin-bottom: 45px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        a {
+            text-decoration: none;
+            background-color: #3460db;
+            color: #ffffff;
+            border: 2px solid #2948b9;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            transition: background-color 0.5s;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        a:hover {
+            background-color: #0f43c6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis Proyectos Javascript</h1>
+    <a href="./RickAndMorty/">Rick and Morty</a>
+    <a href="./ApiClima/">API de Clima</a>
+    <a href="./Animaciones/snake.html">Snake</a>
+    <a href="./Animaciones/moves.html">Zombies</a>
+    <a href="./Animaciones/rebota.html">Rebota</a>
+    <a href="./Canvas/dibujo.html">Dibujo</a>
+    <a href="./dom/coloresbg.html">RGB Random</a>
+    <a href="./dom/coloresinput.html">RGBA</a>
+    <a href="./dom/tareas.html">Lista de Tareas</a>
+    <a href="./dom/galeria.html">Galería</a>
+</body>
+</html>
